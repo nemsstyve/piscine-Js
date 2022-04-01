@@ -1,2 +1,2 @@
 const id = (n) => n
-const getlength = (n) => n + 1
+getLength([2, 42]) === 2
