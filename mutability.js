@@ -18,5 +18,7 @@ const clone2 = {
 
 Object.freeze(clone1)
 Object.freeze(clone2)
+
 person.country = 'FR'
 person.age = 78
+const samePerson = person
