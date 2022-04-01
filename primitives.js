@@ -1,4 +1,4 @@
 const str = 'azerty';
 const num = 42;
-const bool = Boolean;
+const bool = true;
 const undef = 'toto';
