@@ -1,4 +1,4 @@
-typeof "str" === 'string';
-var A = 42;
-var x = new Boolean("false");
-var undefined = 'toto';
+const string = 'azerty';
+const number = 42;
+const boolean = 'false';
+const undefined = 'toto';
