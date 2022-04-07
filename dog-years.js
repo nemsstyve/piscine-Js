@@ -1,4 +1,4 @@
-const planet = {
+const planets = {
     earth: 1.0,
     mercury: 0.2408467,
     venus: 0.61519726,
