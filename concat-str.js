@@ -1,4 +1,4 @@
 function concatStr(n, m) {
-    const concatStr = string(n) + string(m)
-    return concatStr
+    let fusion = string(n) + string(m)
+    return fusion
 }
