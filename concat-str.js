@@ -1,1 +1,4 @@
-const concatStr = (n, m) => 'n'
+function concatStr(n, m) {
+    const concatStr = string(n) + string(m)
+    return concatStr
+}
