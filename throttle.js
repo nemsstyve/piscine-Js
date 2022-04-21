@@ -1,7 +1,3 @@
-function throttle(f, delay) {
+const throttle = (f, delay) => {}
 
-}
-
-function opThrottle(f, delay, options = {}) {
-
-}
+const opThrottle = (f, delay, options = {}) => {}
