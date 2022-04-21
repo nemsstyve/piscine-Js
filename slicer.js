@@ -2,19 +2,20 @@ function slice(s, min, max) {
     var finalMin = 0
     var finalMax = 0
 
-    if (min > 0 && min < s.length) {
+    if (min >= 0 && min < s.length) {
         finalMin = min
-    } else if (min > 0 && min > -s.length) {
+    } else if (min < 0 && min > -s.length) {
         finalMin = s.length + min
     } else {
         finalMin = 0
     }
-    if (max > 0 && max < s.length) {
+
+    if (max >= 0 && max < s.length) {
         finalMax = max
-    } else if (max > 0 && max > -s.length) {
+    } else if (max < 0 && max > -s.length) {
         finalMax = s.length + max
     } else {
-        finalMin = s.length
+        finalMax = s.length
     }
 
     let result;
