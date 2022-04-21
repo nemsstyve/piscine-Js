@@ -5,7 +5,7 @@ function letterSpaceNumber(str) {
     console.log(res)
     if (res != null) {
         for (let i = 0; i < res.length; i++) {
-            res[i] = res[i].slice(0, res[i].length - 1)
+            // res[i] = res[i].slice(0,res[i].length-1)
         }
     } else {
         const res = []
