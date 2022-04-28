@@ -1,4 +1,4 @@
-import { styles } from './data'
+import { styles } from './pimp-my-style.data.js'
 let i = 0
 let j = 14
 let k = 0
